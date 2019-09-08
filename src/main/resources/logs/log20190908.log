@@ -1,0 +1,60 @@
+2019-09-08 22:47:29.445  INFO 18792 --- [main] c.s.excelreader.ExcelReaderApplication   : Starting ExcelReaderApplication on localhost with PID 18792 (/Users/shmily-yuanyue/IdeaProjects/excel-reader/target/classes started by shmily-yuanyue in /Users/shmily-yuanyue/IdeaProjects/excel-reader)
+2019-09-08 22:47:29.448  INFO 18792 --- [main] c.s.excelreader.ExcelReaderApplication   : No active profile set, falling back to default profiles: default
+2019-09-08 22:47:30.044  WARN 18792 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.shmily.excelreader]' package. Please check your configuration.
+2019-09-08 22:47:30.077  INFO 18792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-08 22:47:30.091  INFO 18792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-09-08 22:47:30.397  INFO 18792 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1a09b92d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-08 22:47:30.642  INFO 18792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8091 (http)
+2019-09-08 22:47:30.661  INFO 18792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-08 22:47:30.662  INFO 18792 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-08 22:47:30.744  INFO 18792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-08 22:47:30.744  INFO 18792 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1251 ms
+2019-09-08 22:47:30.870  INFO 18792 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-08 22:47:30.871  WARN 18792 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-09-08 22:47:31.261  INFO 18792 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-08 22:47:31.304  INFO 18792 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-08 22:47:31.355  INFO 18792 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-08 22:47:31.357  INFO 18792 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-08 22:47:31.465  INFO 18792 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-08 22:47:31.569  INFO 18792 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-08 22:47:31.721  INFO 18792 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-08 22:47:31.901  INFO 18792 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-08 22:47:31.935  WARN 18792 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-08 22:47:31.965  INFO 18792 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-08 22:47:32.235  INFO 18792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8091 (http) with context path ''
+2019-09-08 22:47:32.239  INFO 18792 --- [main] c.s.excelreader.ExcelReaderApplication   : Started ExcelReaderApplication in 3.16 seconds (JVM running for 3.717)
+2019-09-08 22:50:05.405  INFO 18792 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-08 22:50:05.405  INFO 18792 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-08 22:50:05.408  INFO 18792 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-09-08 22:50:05.412  INFO 18792 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-09-08 22:58:02.788  INFO 18880 --- [main] c.s.excelreader.ExcelReaderApplication   : Starting ExcelReaderApplication on localhost with PID 18880 (/Users/shmily-yuanyue/IdeaProjects/excel-reader/target/classes started by shmily-yuanyue in /Users/shmily-yuanyue/IdeaProjects/excel-reader)
+2019-09-08 22:58:02.791  INFO 18880 --- [main] c.s.excelreader.ExcelReaderApplication   : No active profile set, falling back to default profiles: default
+2019-09-08 22:58:03.381  WARN 18880 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.shmily.excelreader]' package. Please check your configuration.
+2019-09-08 22:58:03.415  INFO 18880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-08 22:58:03.427  INFO 18880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-09-08 22:58:03.720  INFO 18880 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$705b4624] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-08 22:58:03.969  INFO 18880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8091 (http)
+2019-09-08 22:58:03.991  INFO 18880 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-08 22:58:03.991  INFO 18880 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-08 22:58:04.073  INFO 18880 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-08 22:58:04.074  INFO 18880 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1238 ms
+2019-09-08 22:58:04.200  INFO 18880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-08 22:58:04.201  WARN 18880 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-09-08 22:58:04.605  INFO 18880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-08 22:58:04.647  INFO 18880 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-08 22:58:04.698  INFO 18880 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-08 22:58:04.700  INFO 18880 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-08 22:58:04.809  INFO 18880 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-08 22:58:04.919  INFO 18880 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-08 22:58:05.076  INFO 18880 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-08 22:58:05.251  INFO 18880 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-08 22:58:05.286  WARN 18880 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-08 22:58:05.315  INFO 18880 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-09-08 22:58:05.585  INFO 18880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8091 (http) with context path ''
+2019-09-08 22:58:05.589  INFO 18880 --- [main] c.s.excelreader.ExcelReaderApplication   : Started ExcelReaderApplication in 3.174 seconds (JVM running for 3.752)
+2019-09-08 22:58:05.592 ERROR 18880 --- [main] c.shmily.excelreader.beans.ExcelBaseVO   : 获取属性失败，该属性值不存在！
+2019-09-08 23:31:06.656  WARN 18880 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m1s862ms).
